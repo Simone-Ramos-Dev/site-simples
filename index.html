@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clinica da Mulher</h1>
+    </header>
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="doutora" src="img/doutora.webp">
+        </div>
+        <div class="box-txt">
+            <span>MARQUE SUA CONSULTA</span>
+            <h2>Saúde Plena, Vida Serena!</h2>
+            <p>Se ame, se cuide!<br>
+                Ele conhece e zela por todas as criaturas (Salmo 145:9). <br>
+            </p>
+
+            <a target="_blank" href="https://wa.me/5521999999999?text=Seja+bem+vindo+marque+sua+consulta+" class="btn-hero">Marcar Consulta</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus laborum obcaecati saepe,
+                neque velit adipisci incidunt nostrum vel, voluptas eos, soluta porro illum expedita. Eius totam tenetur
+                illum in?</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus laborum obcaecati saepe,
+                neque velit adipisci incidunt nostrum vel, voluptas eos, soluta porro illum expedita. Eius totam tenetur
+                illum in?</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 3</h3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere minus laborum obcaecati saepe,
+                neque velit adipisci incidunt nostrum vel, voluptas eos, soluta porro illum expedita. Eius totam tenetur
+                illum in?</p>
+        </div>
+        </div>
+        <a target="_blank"  href="https://wa.me/5521999999999?text=Seja+bem+vindo+marque+sua+consulta+" class="m-top btn-hero">Marcar Consulta</a>
+    </section>
+    <footer>
+        <p>2023 © Clinica da Mulher. Todos os direitos reservados</p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/5521999999999?text=Seja+bem+vindo+marque+sua+consulta+">
+        <img width="50" src="img/whts.png">
+
+    </div>
+    <script>
+        const doutora = document.getElementById('doutora');
+        //EVENTO QUANDO MOUSE ESTIVER POR CIMA DA IMAGEM
+        doutora.addEventListener('mouseover', function () { 
+            doutora.src = "img/doutora.webp";
+        });
+
+     //EVENTO QUANDO MOUSE SAIR DA IMAGEM
+        doutora.addEventListener('mouseout', function () { 
+            doutora.src = "img/doutora2.webp";
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Poppins:ital,wght@0,100;0,300;1,100&family=Yesteryear&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8aae3;
+    height: 80px;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Yesteryear', cursive;
+    font-weight: normal;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+.responsiva{
+    max-width: 100%;
+}
+.box-txt {
+    display: flex;
+    flex-flow: row wrap;
+    width: 35%;
+
+}
+
+.box-txt span {
+    color: gray;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.box-txt h2 {
+    font-family: 'DM sans', sans-serif;
+    font-size: 55px;
+    color: #ce4ec4;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+
+.box-txt p {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.btn-hero {
+    background: #ce4ec4;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.btn-hero:hover {
+    background: rgb(242, 11, 146);
+    font-size: 18px;
+
+}
+
+.box-item {
+    width: 30%;
+    height: 380px;
+    background: #fde3fb;
+    margin: 5px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.especialidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.m-top {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 100px;
+    background: #e8aae3;
+    height: 150px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    header h1{
+        font-size: 45px;
+    }
+    .hero{
+        flex-direction: column-reverse;
+
+    }
+    .box-txt{
+        flex-flow: column wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 30px;
+        
+    }
+    .box-txt h2{
+        font-size: 60px;
+    }
+    .box-txt p{
+        text-align: center;
+
+    }
+    .box-img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .box-item{
+        width: 95%;
+    }
+    footer{
+        font-size: 18px;
+        text-align: center;
+    }
+    }
